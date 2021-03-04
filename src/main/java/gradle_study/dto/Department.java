@@ -1,13 +1,11 @@
 package gradle_study.dto;
 
-import java.util.List;
-
 public class Department {
 	private int deptNo;
 	private String deptName;
 	private int floor;
 	
-	private List<Employee> list;
+//	private List<Employee> list;
 
 	public Department(int deptNo, String deptName) {
 		this.deptNo = deptNo;

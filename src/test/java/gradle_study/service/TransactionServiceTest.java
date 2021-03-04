@@ -11,6 +11,7 @@ import gradle_study.dto.Department;
 import gradle_study.dto.Title;
 import junit.framework.Assert;
 
+@SuppressWarnings("deprecation")
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TransactionServiceTest {
 
